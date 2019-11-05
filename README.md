@@ -41,7 +41,9 @@ Therefore the goal of the game is to create a champion in such a way that the pr
 
 The assembler is a program that converts the champion (.s files) which are written in redcode (a pseudo programming language with a syntax close to assembly language) into binaries (.cor) that can be read by the virtual machine.
 
-This implementation uses lexical and syntaxic analysis to determine if the program is correctly written. This allows the program to provides users with the type and location of the error encountered. 
+This implementation uses lexical and syntaxic analysis to determine if the program is correctly written. This allows the program to provides users with the type and location of the error encountered.
+
+More precisely, two final-state machines have been programated for both lexical and syntaxic analysis.
 
 ## Installation : 
 
@@ -78,4 +80,6 @@ The project was made at 42 by:
 * M.Alluin
 * C.Cepre
 * R.Kirszbaum
-* F.Nussbauer
+* F.Nussbaumer
+
+© [Maxence Alluin](https://github.com/maxencealluin)
